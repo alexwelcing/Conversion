@@ -2,5 +2,5 @@
   "title": "Map",
   "date": "2019-11-20T20:48:41.374Z",
   "thumbnail": "/images/uploads/header.jpg",
-  "body": "<iframe width=\"800\" height=\"400\" frameborder=\"0\" scrolling=\"no\" src=\"https://onedrive.live.com/embed?resid=B98C967481E6E68E%2125572&authkey=%21AJZYj-YkwYV64wA&em=2&Item=PivotTable1&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True\"></iframe>\n\n![This is an inserted image.](/images/uploads/starting-map.jpg \"The title of the image goes here.\")"
+  "body": "![This is an inserted image.](/images/uploads/starting-map.jpg \"The title of the image goes here.\")\n\n<iframe width=\"800\" height=\"500\" frameborder=\"0\" scrolling=\"no\" src=\"https://onedrive.live.com/embed?resid=B98C967481E6E68E%2125572&authkey=%21AJZYj-YkwYV64wA&em=2&Item=PivotTable1&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True\"></iframe>"
 }
