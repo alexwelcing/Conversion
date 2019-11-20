@@ -7,19 +7,9 @@
   "altlayout": false,
   "menu": [
     {
-      "name": "Executive Summary",
+      "name": "Insights@ManattHealth",
       "position": "1",
-      "link": "http://www.sdohsurvey.netlify.com/summary/"
-    },
-    {
-      "name": "50 State Comparison",
-      "position": "2",
-      "link": "http://www.sdohsurvey.netlify.com/map/"
-    },
-    {
-      "name": "State Profiles",
-      "position": "3",
-      "link": "http://www.sdohsurvey.netlify.com/states/"
+      "link": "https://healthinsights.manatt.com/Health-Insights/Authentication?returnurl=%2fHealth-Insights%2fHome"
     }
   ]
 }
