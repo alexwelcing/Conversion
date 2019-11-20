@@ -4,7 +4,7 @@
   "siteicon": "/images/uploads/icon.png",
   "showmenu": true,
   "emailsignup": false,
-  "altlayout": false,
+  "altlayout": true,
   "menu": [
     {
       "name": "Insights@ManattHealth",
