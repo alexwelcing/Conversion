@@ -19,7 +19,7 @@
     "@nuxtjs/pwa": "^2.0.8",
     "@sendgrid/client": "^6.3.0",
     "bf-solid": "^2.10.6",
-    "fuse.js": "^3.2.1",
+    "fuse.js": "^3.4.6",
     "hoek": "^4.2.1",
     "netlify-lambda": "^1.4.3",
     "node-sass": "^4.9.2",

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\content",
+    "\\content\\categories",
+    "\\content\\categories\\posts",
+    "\\content\\tags\\posts",
+    "\\content\\work",
+    "\\src",
+    "\\src\\sendgrid",
+    "\\static"
+  ],
+  "SelectedNode": "\\app.html",
+  "PreviewInSolutionExplorer": false
+}
