@@ -9,17 +9,17 @@
     {
       "name": "Executive Summary",
       "position": "1",
-      "link": "https://www.sdohsurvey.netlify.com/summary/"
+      "link": "http://www.sdohsurvey.netlify.com/summary/"
     },
     {
       "name": "50 State Comparison",
       "position": "2",
-      "link": "https://www.sdohsurvey.netlify.com/map/"
+      "link": "http://www.sdohsurvey.netlify.com/map/"
     },
     {
       "name": "State Profiles",
       "position": "3",
-      "link": "https://www.sdohsurvey.netlify.com/states/"
+      "link": "http://www.sdohsurvey.netlify.com/states/"
     }
   ]
 }
