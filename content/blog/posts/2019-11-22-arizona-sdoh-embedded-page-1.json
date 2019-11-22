@@ -1,0 +1,7 @@
+{
+  "title": "Arizona SDOH Embedded page",
+  "date": "Friday November 22nd, 2019",
+  "thumbnail": "/images/uploads/sdoh-arizona-care-management.jpg",
+  "category": "Social Determinants of Health",
+  "body": "<body style=\"margin:0px;padding:0px;overflow:hidden\">\r\n\n\\    <iframe src=\"https://sdoh.netlify.com/arizona.html\" frameborder=\"0\" style=\"overflow:hidden;height:100%;width:100%\" height=\"100%\" width=\"100%\"></iframe>\r\n\n</body>"
+}
