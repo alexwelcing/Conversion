@@ -3,5 +3,5 @@
   "date": "Friday November 22nd, 2019",
   "thumbnail": "/images/uploads/sdoh-arizona-care-management.jpg",
   "category": "Social Determinants of Health",
-  "body": "<body style=\"margin:0px;padding:0px;overflow:hidden\">\n\n<iframe src=\"https://sdoh.netlify.com/arizona.html\" frameborder=\"0\" style=\"overflow\" height=\"1000px\" width=\"100%\"></iframe>\n\n</body>\n\nThe page above is another site iFramed in, the link is here: <https://sdoh.netlify.com/arizona.html>"
+  "body": "<body style=\"margin:0px;padding:0px;overflow:hidden\">\n\n<iframe src=\"https://sdoh.netlify.com/arizona.html\" frameborder=\"0\" style=\"overflow\" height=\"1000px\" width=\"1000px\"></iframe>\n\n</body>\n\nThe page above is another site iFramed in, the link is here: <https://sdoh.netlify.com/arizona.html>"
 }
