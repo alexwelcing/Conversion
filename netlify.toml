@@ -1,13 +1,15 @@
 [build]
-  publish = "dist"
-  command = "yarn run generate --no-lock && yarn run build:api"
-  functions = "./functions"
+  command = "npm run build"
+  publish = ".output/public"
+
+[functions]
+  directory = ".netlify/functions-internal"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
+  port = 8888
+  framework = "nuxt"
+
 [build.environment]
-  NODE_VERSION = "9" 
-  YARN_FLAGS = "--no-ignore-optional"
-[template.environment]
-  API_URL = "https://bael-theme.jake101.com"
-  SENDGRID_API_KEY = "Your Sendgrid API Key (required for newsletter signup box)"
-  SENDGRID_WELCOME_SENDER_EMAIL = "Sendgrid Welcome Sender Email"
-  SENDGRID_WELCOME_SENDER_NAME = "Sendgrid Welcome Sender Name"
-  SENDGRID_WELCOME_TEMPLATE_ID = "Sendgrid Welcome Email Template ID"
+  NODE_VERSION = "20"
