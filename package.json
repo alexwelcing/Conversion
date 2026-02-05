@@ -1,42 +1,21 @@
 {
-  "name": "bael-cms-template",
-  "version": "0.1.2",
-  "description": "A fashionable brutalist blog template using Netlify CMS and Nuxt.js",
-  "author": "jake101 <hello@jake101.com>",
+  "name": "nuxt4-netlify-brutalist",
+  "private": true,
+  "type": "module",
+  "description": "A brutalist Nuxt 4 starter tuned for Netlify.",
   "scripts": {
-    "dev": "nuxt",
-    "serve": "nuxt",
-    "build": "nuxt build --no-lock",
-    "build:api": "netlify-lambda build src/sendgrid",
-    "start": "nuxt start",
-    "generate": "nuxt generate --no-lock",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.1",
-    "@nuxtjs/markdownit": "github:syffs/nuxtv2-markdownit",
-    "@nuxtjs/pwa": "^2.0.8",
-    "@sendgrid/client": "^6.3.0",
-    "bf-solid": "^2.10.6",
-    "fuse.js": "^3.4.6",
-    "hoek": "^4.2.1",
-    "netlify-lambda": "^1.4.3",
-    "node-sass": "^4.9.2",
-    "nuxt": "^2.0.0",
-    "sass-loader": "^7.0.3",
-    "vue-lazyload": "^1.2.6",
-    "vue-moment": "^4.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.7.0",
-    "glob": "^7.1.2"
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
   },
   "engines": {
-    "node": "^9.0.0"
+    "node": ">=20.0.0"
   }
 }

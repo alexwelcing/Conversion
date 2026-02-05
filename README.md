@@ -1,47 +1,38 @@
-# Bael Netlify CMS Template
+# Brutalist Nuxt 4 + Netlify Starter
 
-![Bael](https://i.imgur.com/e1zmiB2.jpg "Bael CMS Blog Template")
+A 2026-ready Nuxt 4 template with a brutalist grid, bold typography, and a Netlify-first deployment story. Inspired by the original Bael layout, this starter keeps the edges sharp while upgrading everything else to the modern Nuxt stack.
 
-> Bael is a free template that gives you an easy way to start a blog that uses modern technologies like static-site JAMstack architecture, CSS grid layout, responsive design, and fuzzy search — all wrapped up in a brutalist aesthetic.
+## What’s inside
 
-## Info
+- Nuxt 4 app directory layout
+- Nitro preset configured for Netlify
+- Brutalist, high-contrast UI system
+- Ready for markdown or headless CMS content
 
-Bael runs using [Nuxt.js](https://nuxtjs.org), [Vue.js](https://vuejs.org), [Netlify CMS](https://netlifycms.org), and is hosted by [Netlify](https://netlify.com). Bael requires an account with Netlify and Github/Bitbucket to deploy. Made by [Jake 101](https://jake101.com)
+## Quick start
 
-## Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jake-101/bael-template)
-
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+```bash
+npm install
+npm run dev
 ```
 
-## Edit content
+Visit `http://localhost:3000` to see the brutalist landing page.
 
-Access `yourwebsite.com/admin`, e.g. `localhost:3000/admin`.
+## Build & deploy
 
-## Manage dynamic routes
+```bash
+npm run build
+npm run preview
+```
 
-When you use Netlify CMS' `folder` type, you actually create dynamic routes. For example, when creating a blog,
-you render different content files with the same template. And for the blog to know which content to render,
-it looks at the url and gets the specific content file. That's a dynamic route.
+Netlify uses the configuration in `netlify.toml` and the Nitro preset to publish `.output/public` and serve serverless functions from `.netlify/functions-internal`.
 
-So If you create a `folder` type with Netlify CMS, add the folder as glob to the `dynamicRoutes` variable
-in the `nuxt.config.js`.
+## Customize
 
-MIT License
+- Edit `app/pages/index.vue` to change content blocks.
+- Update styles in `app/assets/css/main.css`.
+- Add pages in `app/pages` or components in `app/components`.
 
+## License
+
+MIT
